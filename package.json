@@ -4,16 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha",
+    "test": "mocha test/*.test.js",
     "start": "NODE_ENV=test nodemon app.js",
     "debug": "NODE_ENV=test nodemon --inspect app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/christianearle01/trigger-thru-push-1.git"
-  },
-  "keywords": [],
-  "author": "Earle ",
+  "author": "Oliver ",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -31,9 +26,5 @@
     "mocha": "^8.2.1",
     "nodemon": "^2.0.7",
     "selenium-webdriver": "^4.0.0-alpha.8"
-  },
-  "bugs": {
-    "url": "https://github.com/christianearle01/trigger-thru-push-1/issues"
-  },
-  "homepage": "https://github.com/christianearle01/trigger-thru-push-1#readme"
+  }
 }

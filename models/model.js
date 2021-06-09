@@ -1,4 +1,4 @@
-const connection    = require('../config/database.js');
+// const connection    = require('../config/database.js');
 
 /*
 	Docu: Model Class
